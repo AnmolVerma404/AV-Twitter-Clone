@@ -22,7 +22,7 @@ body {
 }
 
 .twitter {
-  height: 8vh;
+  height: 55px;
 }
 
 .left nav ul,
@@ -50,7 +50,7 @@ body {
   /* text-align: center; */
 }
 
-.navlogo{
+.navlogo {
   fill: white;
 }
 
@@ -97,7 +97,7 @@ body {
   top: 40px;
 }
 .pimg {
-  height: 7vh;
+  height: 50px;
   border-radius: 30px;
 }
 
@@ -105,7 +105,8 @@ body {
   margin: 20px;
 }
 
-.pimg,.personname{
+.pimg,
+.personname {
   position: relative;
   top: -17px;
   right: 10px;
@@ -117,11 +118,12 @@ body {
 
 /* Centre */
 
-.centre{
+.centre {
   display: flex;
+  flex-direction: column;
 }
 
-.centreall{
+.centreall {
   /* min-width: calc(); */
   min-width: 39vw;
 }
@@ -130,4 +132,47 @@ body {
   font-size: 20px;
   font-weight: 800;
   padding: 15px;
+}
+
+.feather {
+  fill: rgb(0, 132, 255);
+}
+
+.writetweet {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 5px 100px 15px;
+}
+
+/* .profileimgcentre {
+} */
+
+.pimgcentre {
+  height: 45px;
+  border-radius: 20px;
+  /* align-items: flex-start; */
+}
+
+.wtweet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  /* overflow: hidden; */
+}
+
+.witweet {
+  background-color: black;
+  border: 0;
+  color: white;
+  font-size: 22px;
+}
+
+.otheruser{
+  display: flex;
+  padding: 10px 0px 0px 15px;
+}
+
+.otherimg{
+  border-radius: 40px;
 }
