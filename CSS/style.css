@@ -21,8 +21,17 @@ body {
   padding: 0px 29px 0px 110px;
   font-size: 20px;
   font-weight: 650;
+  /* position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: black; */
 }
-
+.leftall{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: black;
+}
 .twitter {
   height: 55px;
 }
@@ -36,8 +45,8 @@ body {
 }
 
 .left nav ul li {
-  width: 150px;
-  height: 40px;
+  width: 200px;
+  height: 50px;
   /* background-color: red; */
   /* text-align: center; */
   border-radius: 20px;
@@ -45,13 +54,23 @@ body {
 .tabs {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .pageso {
-  /* text-align: center; */
+  display: flex;
+  position:relative;
+  /* left: 10px; */
+  padding: 0px 0px 0px 0px;
+}
+.lisvg{
+  padding: 0px 15px 0px 0px;
+}
+.allpsvg{
+  fill: black;
 }
 
-.navlogo {
-  fill: white;
+.navsvg {
+  padding: 0px 0px 0px 0px;
 }
 
 .left nav ul li a,
@@ -94,7 +113,7 @@ body {
   align-items: center;
   /* background-color: red; */
   position: relative;
-  top: 40px;
+  top: 110px;
 }
 .pimg {
   height: 50px;
