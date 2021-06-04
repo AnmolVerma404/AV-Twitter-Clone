@@ -58,6 +58,8 @@ body {
 }
 .pageso {
   display: flex;
+  /* justify-content: center; */
+  /* Below is where magic happened */
   align-items: center;
 }
 .lisvg{
