@@ -26,7 +26,7 @@ body {
   z-index: 1000;
   background-color: black; */
 }
-.leftall{
+.leftall {
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -62,10 +62,10 @@ body {
   /* Below is where magic happened */
   align-items: center;
 }
-.lisvg{
+.lisvg {
   padding: 0px 15px 0px 0px;
 }
-.allpsvg{
+.allpsvg {
   fill: black;
 }
 
@@ -207,7 +207,6 @@ body {
   flex-direction: row;
 }
 
-
 .usercontent {
   padding: 0px 0px 10px 50px;
   flex-direction: column;
@@ -215,14 +214,14 @@ body {
   font-family: inherit;
 }
 
-.userupimage{
+.userupimage {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0px 10px 10px 10px;
 }
 
-.givenimage{
+.givenimage {
   border-radius: 20px;
   border: 1px solid rgb(228, 228, 228);
 }
@@ -238,11 +237,14 @@ body {
 }
 
 .reply,
-.heartred,.retgreen {
+.heartred,
+.retgreen {
   fill: black;
 }
 
-.replycount,.heartcount,.tweetcount {
+.replycount,
+.heartcount,
+.tweetcount {
   font-size: 14px;
   color: rgb(228, 228, 228);
   padding: 0px 0px 0px 10px;
@@ -255,15 +257,42 @@ body {
 .replycount:hover {
   color: rgb(0, 132, 255);
 }
-.heartred:hover{
+.heartred:hover {
   stroke: red;
 }
 .heartcount:hover {
-color: red;
+  color: red;
 }
-.retgreen:hover{
+.retgreen:hover {
   stroke: rgb(23, 184, 23);
 }
 .tweetcount:hover {
-color: rgb(23, 184, 23);
+  color: rgb(23, 184, 23);
+}
+
+/* Right */
+
+.searchtwitter {
+  padding: 8px 0px 0px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  text-align: center;
+  background-color: rgb(36, 34, 34);
+  width: 300px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.searchsvg {
+  fill: rgb(36, 34, 34);
+  /* filter: invert(10%) sepia(5%) saturate(1449%) hue-rotate(175deg) brightness(100%) contrast(90%); */
+}
+
+.intwitter__search__textbox {
+  background-color: rgb(36, 34, 34);
+  border: none;
+  color: white;
 }
