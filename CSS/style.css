@@ -190,6 +190,7 @@ body {
   border: 0;
   color: white;
   font-size: 22px;
+  outline: none;
 }
 
 .otheruser {
@@ -273,17 +274,24 @@ body {
 /* Right */
 
 .searchtwitter {
+  background-color: black;
   padding: 8px 0px 0px 40px;
-  display: flex;
-  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .search {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  /* justify-content: center; */
   background-color: rgb(36, 34, 34);
   width: 300px;
   height: 40px;
   border-radius: 30px;
+  position: relative;
+  padding: 8px;
+  box-sizing: border-box;
 }
 
 .searchsvg {
@@ -292,7 +300,48 @@ body {
 }
 
 .intwitter__search__textbox {
+  padding: 12px;
   background-color: rgb(36, 34, 34);
   border: none;
   color: white;
+  outline: none;
+}
+/* .search:focus {
+  background: red; 
+  border: 2px solid rgb(0, 132, 255);
+} */
+
+.whatshappiningcontainer{
+  padding: 20px 0px 0px 42px;
+  width: 70%;
+  /* font-size: 20px; */
+  font-family: sans-serif;
+  color: rgb(228, 228, 228);
+}
+
+.whatshappining{
+  border-radius: 20px;
+  /* padding: 20px 0px 0px 42px; */
+  /* padding-left: 15px; */
+  background-color: rgb(21,24,28);
+}
+
+.whatshappining h3{
+  font-weight: 1000;
+}
+
+.trending{
+  padding: 10px 0px 10px 20px;
+}
+
+.showmore{
+  color: rgb(0, 132, 255);
+}
+
+.trendingbox{
+  cursor: pointer;
+}
+  
+.trendingbox:hover{
+  background-color: rgb(32, 36, 41);
 }
