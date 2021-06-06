@@ -90,7 +90,7 @@ body {
   background-color: rgb(20, 30, 32);
 }
 
-.tweetbox{
+.tweetbox {
   padding-left: 42px;
   display: flex;
 }
@@ -279,6 +279,11 @@ body {
 
 /* Right */
 
+.right{
+  position: -webkit-sticky;
+  top: 100px;
+}
+
 .searchtwitter {
   height: 60px;
   background-color: black;
@@ -435,7 +440,30 @@ body {
   color: rgb(0, 132, 255);
 }
 
-.seemoretofollow:hover{
+.seemoretofollow:hover {
   background-color: rgb(32, 36, 41);
   border-radius: 0px 0px 20px 20px;
+}
+
+.copyright {
+  padding: 30px 0px 0px 55px;
+  width: 80%;
+  /* font-size: 20px; */
+  font-family: sans-serif;
+  color: rgb(228, 228, 228);
+}
+.termsser,
+.addcopyright {
+  display: flex;
+  font-size: 12px;
+  color: rgb(121, 121, 121);
+}
+.termsser p,
+.addcopyright p {
+  padding: 10px 0px 5px 10px;
+}
+.termsser p:hover,
+.addcopyright p:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
