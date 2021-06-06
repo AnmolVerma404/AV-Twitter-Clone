@@ -274,6 +274,7 @@ body {
 /* Right */
 
 .searchtwitter {
+  height: 60px;
   background-color: black;
   padding: 8px 0px 0px 40px;
   position: sticky;
@@ -311,37 +312,121 @@ body {
   border: 2px solid rgb(0, 132, 255);
 } */
 
-.whatshappiningcontainer{
+.whatshappiningcontainer {
   padding: 20px 0px 0px 42px;
-  width: 70%;
+  width: 80%;
   /* font-size: 20px; */
   font-family: sans-serif;
   color: rgb(228, 228, 228);
 }
 
-.whatshappining{
+.whatshappining {
   border-radius: 20px;
   /* padding: 20px 0px 0px 42px; */
   /* padding-left: 15px; */
-  background-color: rgb(21,24,28);
+  background-color: rgb(21, 24, 28);
 }
 
-.whatshappining h3{
+.whatshappining h3 {
   font-weight: 1000;
 }
 
-.trending{
+.trending {
   padding: 10px 0px 10px 20px;
 }
 
-.showmore{
+.showmore {
   color: rgb(0, 132, 255);
 }
 
-.trendingbox{
+.trendingbox {
   cursor: pointer;
 }
-  
-.trendingbox:hover{
+
+.trendingbox:hover {
   background-color: rgb(32, 36, 41);
+}
+
+.whotofollow {
+  padding: 20px 0px 0px 42px;
+  width: 80%;
+  /* font-size: 20px; */
+  font-family: sans-serif;
+  color: rgb(228, 228, 228);
+  /* overflow: hidden; */
+}
+
+.boxwhotofollow {
+  border-radius: 20px;
+  /* padding: 20px 0px 0px 42px; */
+  /* padding-left: 15px; */
+  background-color: rgb(21, 24, 28);
+}
+.boxwhotofollow h2 {
+  padding: 10px 0px 10px 20px;
+}
+
+.tofollow {
+  padding: 10px 0px 10px 20px;
+  display: flex;
+  cursor: pointer;
+}
+
+.tofollow:hover {
+  background-color: rgb(32, 36, 41);
+}
+
+.tofollowprofileimg img {
+  height: 50px;
+  border-radius: 40px;
+}
+.tofollowname {
+  display: flex;
+  flex-direction: column;
+}
+.nametofollow {
+  padding: 0px 0px 5px 10px;
+  width: max-content;
+}
+.adressnametofollow {
+  padding-left: 10px;
+  font-size: 12px;
+}
+.tick {
+  padding-left: 5px;
+}
+.ticksvg {
+  fill: rgb(228, 228, 228);
+}
+.followbuttonbox {
+  padding: 0px 0px 0px 73px;
+}
+
+.tofollowtwo .followbuttonbox {
+  padding: 0px 0px 0px 25px;
+}
+
+.tofollowbutton {
+  height: 40px;
+  width: 100px;
+  border: 1px solid rgb(0, 132, 255);
+  color: rgb(0, 132, 255);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tofollowbutton:hover {
+  background-color: rgba(0, 132, 255, 0.1);
+}
+
+.seemoretofollow {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(0, 132, 255);
+}
+
+.seemoretofollow:hover{
+  background-color: rgb(32, 36, 41);
+  border-radius: 0px 0px 20px 20px;
 }
