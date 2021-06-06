@@ -34,6 +34,7 @@ body {
 }
 .twitter {
   height: 55px;
+  padding-left: 17px;
 }
 
 .left nav ul,
@@ -89,9 +90,14 @@ body {
   background-color: rgb(20, 30, 32);
 }
 
+.tweetbox{
+  padding-left: 42px;
+  display: flex;
+}
+
 .tweet {
   background-color: rgb(0, 132, 255);
-  width: 162px;
+  width: 150px;
   height: 47px;
   justify-content: center;
   align-content: center;
@@ -404,6 +410,9 @@ body {
 
 .tofollowtwo .followbuttonbox {
   padding: 0px 0px 0px 25px;
+}
+.tofollowthree .followbuttonbox {
+  padding: 0px 0px 0px 40px;
 }
 
 .tofollowbutton {
