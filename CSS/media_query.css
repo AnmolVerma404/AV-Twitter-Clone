@@ -1,0 +1,39 @@
+/* @media screen and (max-width: 800px){
+    body{
+        background-color: brown;
+    }
+    .container{
+        background-color: yellow;
+    }
+} */
+@media screen and (max-width: 1400px) {
+  .left {
+    padding: 0px 10px 0px 80px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .left {
+    padding: 0px 0px 0px 0px;
+  }
+}
+@media screen and (max-width: 1147px) {
+  .pages {
+    display: none;
+  }
+  .tweet {
+    display: none;
+  }
+  .name {
+    width: auto;
+    padding-left: 20px;
+  }
+  .name .personname {
+    display: none;
+  }
+  .parentmediatweetsvg {
+    display: contents;
+  }
+  .mediatweetsvg:hover {
+    background-color: rgb(27, 122, 211);
+  }
+}

@@ -46,7 +46,6 @@ body {
 }
 
 .left nav ul li {
-  width: 200px;
   height: 50px;
   /* background-color: red; */
   /* text-align: center; */
@@ -92,7 +91,6 @@ body {
 
 .tweetbox {
   padding-left: 42px;
-  display: flex;
 }
 
 .tweet {
@@ -103,7 +101,22 @@ body {
   align-content: center;
   border-radius: 26px;
 }
-
+.parentmediatweetsvg{
+  display: none;
+}
+.mediatweetsvg {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: rgb(18, 130, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mediatweetsvgpath {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(78deg) brightness(107%)
+    contrast(102%);
+}
 .tweet:hover {
   background-color: rgb(27, 122, 211);
 }
@@ -279,7 +292,7 @@ body {
 
 /* Right */
 
-.right{
+.right {
   position: -webkit-sticky;
   top: 100px;
 }
