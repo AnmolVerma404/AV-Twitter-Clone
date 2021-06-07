@@ -101,7 +101,7 @@ body {
   align-content: center;
   border-radius: 26px;
 }
-.parentmediatweetsvg{
+.parentmediatweetsvg {
   display: none;
 }
 .mediatweetsvg {
@@ -159,7 +159,8 @@ body {
 .centre {
   display: flex;
   flex-direction: column;
-  max-width: 700px;
+  /* max-width: 700px; */
+  width: 700px;
 }
 
 .centreall {
@@ -396,6 +397,11 @@ body {
   cursor: pointer;
 }
 
+.tofollowleft{
+  display: flex;
+  flex-direction: row;
+}
+
 .tofollow:hover {
   background-color: rgb(32, 36, 41);
 }
@@ -408,9 +414,12 @@ body {
   display: flex;
   flex-direction: column;
 }
-.nametofollow {
+.nametofollow,.mqnametofollow {
   padding: 0px 0px 5px 10px;
   width: max-content;
+}
+.mqnametofollow{
+  display: none;
 }
 .adressnametofollow {
   padding-left: 10px;
@@ -422,7 +431,7 @@ body {
 .ticksvg {
   fill: rgb(228, 228, 228);
 }
-.followbuttonbox {
+.tofollowone .followbuttonbox {
   padding: 0px 0px 0px 73px;
 }
 
