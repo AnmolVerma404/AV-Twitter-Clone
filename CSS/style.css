@@ -79,6 +79,16 @@ body {
   text-decoration: none;
 }
 
+nav ul .homebar,.hometext{
+  /* background-color: red; */
+  color: rgb(0, 132, 255);
+  cursor: pointer;
+}
+
+.homesvg{
+  filter: invert(59%) sepia(53%) saturate(4760%) hue-rotate(176deg) brightness(99%) contrast(91%);
+}
+
 .left nav ul li:hover {
   color: rgb(0, 132, 255);
   background-color: rgb(20, 30, 32);
@@ -186,6 +196,7 @@ body {
   display: flex;
   flex-direction: row;
   padding: 5px 5px 100px 15px;
+  box-sizing: border-box;
 }
 
 /* .profileimgcentre {
@@ -211,6 +222,23 @@ body {
   color: white;
   font-size: 22px;
   outline: none;
+}
+
+.tweetpost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 132, 255, 0.4);
+  width: 100px;
+  border-radius: 40px;
+  cursor: pointer;
+  position: relative;
+  top: 85px;
+  left: 156px;
+}
+
+.tweetpost:hover {
+  background-color: rgba(0, 132, 255, 0.7);
 }
 
 .otheruser {
@@ -397,7 +425,7 @@ body {
   cursor: pointer;
 }
 
-.tofollowleft{
+.tofollowleft {
   display: flex;
   flex-direction: row;
 }
@@ -414,11 +442,12 @@ body {
   display: flex;
   flex-direction: column;
 }
-.nametofollow,.mqnametofollow {
+.nametofollow,
+.mqnametofollow {
   padding: 0px 0px 5px 10px;
   width: max-content;
 }
-.mqnametofollow{
+.mqnametofollow {
   display: none;
 }
 .adressnametofollow {

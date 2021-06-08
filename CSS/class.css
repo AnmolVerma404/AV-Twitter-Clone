@@ -7,14 +7,19 @@
   height: 1px;
   background-color: rgb(54, 66, 68);
 }
-.vline {
+/* .vline {
   width: 1px;
   height: 100vh;
   background-color: rgb(54, 66, 68);
-  /* background-color: rgb(18, 163, 189); */
-  position: sticky;
+  background-color: rgb(18, 163, 189);
+  position: fixed ;
   top: 0;
   z-index: 2200;
+} */
+
+.vline{
+  width: 5px;
+  background-color: rgba(255, 255, 255,0.3);
 }
 
 .htline{

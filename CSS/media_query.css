@@ -6,6 +6,11 @@
         background-color: yellow;
       }
     } */
+@media screen and (max-width: 1495px) {
+  .tweetpost {
+    left: 80px;
+  }
+}
 @media screen and (max-width: 1430px) {
   .left {
     padding: 0px 10px 0px 80px;
@@ -92,11 +97,35 @@
     justify-content: center;
   }
 }
-@media screen and (max-width: 942.6px){
-  .left{
+@media screen and (max-width: 942.6px) {
+  .left {
     padding-left: 20px;
   }
-  .right{
+  .right {
     display: none;
+  }
+  .tweetpost {
+    left: 217px;
+  }
+}
+@media screen and (max-width: 823px) {
+  .tweetpost {
+    left: 100px;
+  }
+}
+@media screen and (max-width: 704px) {
+  .left {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 670px){
+  /* .twitter{
+    padding: 0px;
+  }
+  .left nav ul{
+    padding: 0px;
+  } */
+  .leftallpd{
+    padding: 0px;
   }
 }
